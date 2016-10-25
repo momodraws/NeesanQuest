@@ -174,7 +174,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 84191638
+version_id: 94590440
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -284,7 +284,7 @@ gameover_me: !ruby/object:RPG::ME
   name: Gameover1
   pitch: 100
   volume: 100
-game_title: RPGSkeleton
+game_title: NeesanQuest
 title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
