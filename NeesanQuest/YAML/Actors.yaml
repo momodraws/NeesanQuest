@@ -1,24 +1,24 @@
 ---
 - 
 - !ruby/object:RPG::Actor
-  name: Eric
+  name: Cordelia
   face_index: 0
   character_index: 0
   initial_level: 1
-  face_name: Actor4
-  class_id: 1
-  character_name: Actor4
+  face_name: cordyport
+  class_id: 2
+  character_name: cordy
   id: 1
   features: []
   note: ''
   equips:
-  - 1
-  - 46
+  - 7
+  - 0
   - 0
   - 1
   - 0
   nickname: Silver Reaper
-  description: "A veteran warrior who fought on many battlefields.\r\nHe becomes uncontrollable in battle when berserk."
+  description: ''
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Natalie

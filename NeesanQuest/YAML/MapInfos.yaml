@@ -1,8 +1,22 @@
 ---
 1: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: MAP001
-  expanded: false
+  name: Overworld
+  expanded: true
   order: 1
   scroll_y: 208
   parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: Main Town
+  expanded: true
+  order: 2
+  scroll_y: 520
+  parent_id: 1
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Cordy's House
+  expanded: false
+  order: 3
+  scroll_y: 208
+  parent_id: 2
