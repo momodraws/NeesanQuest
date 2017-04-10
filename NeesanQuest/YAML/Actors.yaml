@@ -2,12 +2,12 @@
 - 
 - !ruby/object:RPG::Actor
   name: Cordelia
-  face_index: 0
-  character_index: 0
+  face_index: 1
+  character_index: 1
   initial_level: 1
-  face_name: cordyport
+  face_name: nq-faces1
   class_id: 2
-  character_name: Sonic
+  character_name: nq-sprites1
   id: 1
   features: []
   note: ''
