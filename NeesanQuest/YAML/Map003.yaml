@@ -45,7 +45,7 @@ events:
       priority_type: 0
       trigger: 1
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 5, 22, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 1, 5, 23, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: a sense of purpose, volume: 100, pitch: 100}

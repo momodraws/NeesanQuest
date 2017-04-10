@@ -12,12 +12,12 @@
   features: []
   note: ''
   equips:
-  - 7
+  - 0
   - 0
   - 0
   - 1
   - 0
-  nickname: Silver Reaper
+  nickname: Cordy
   description: ''
   max_level: 99
 - !ruby/object:RPG::Actor
