@@ -936,7 +936,7 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 216
     hidden: false
     x: 272
     enemy_id: 30
@@ -960,3 +960,30 @@
       switch_id: 1
       turn_b: 0
   id: 30
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 264
+    hidden: false
+    x: 256
+    enemy_id: 31
+  name: lily
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 31

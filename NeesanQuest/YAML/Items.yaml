@@ -481,8 +481,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Increases LUK by 3.
-  name: Luck Up
+  description: Dess
+  name: Nyanpoi
   consumable: true
   occasion: 2
   icon_index: 199

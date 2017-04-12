@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::State
-  message2: ' is slain!'
+  message2: ' runs away!'
   name: Death
   priority: 100
   icon_index: 17

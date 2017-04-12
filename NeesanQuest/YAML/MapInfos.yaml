@@ -7,16 +7,30 @@
   scroll_y: 208
   parent_id: 0
 1: !ruby/object:RPG::MapInfo
-  scroll_x: 750
+  scroll_x: 704
   name: Main Town
   expanded: true
   order: 2
-  scroll_y: 312
+  scroll_y: 473
   parent_id: 2
 3: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Cordy's House
   expanded: false
   order: 3
+  scroll_y: 208
+  parent_id: 1
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Above Flower Shop
+  expanded: false
+  order: 5
+  scroll_y: 208
+  parent_id: 5
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Flower Shop
+  expanded: true
+  order: 4
   scroll_y: 208
   parent_id: 1

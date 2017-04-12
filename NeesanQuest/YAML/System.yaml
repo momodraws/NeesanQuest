@@ -11,7 +11,7 @@ elements:
 - Wind
 - Holy
 - Dark
-start_y: 6
+start_y: 10
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
@@ -30,14 +30,14 @@ test_battlers:
   - 1
   - 0
 _: 7829367
-edit_map_id: 1
+edit_map_id: 4
 battle_end_me: !ruby/object:RPG::ME
-  name: Victory1
+  name: 16. いいこと！
   pitch: 100
   volume: 100
 party_members:
 - 1
-start_x: 8
+start_x: 22
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
@@ -174,8 +174,8 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 5717937
-start_map_id: 2
+version_id: 25506466
+start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
 switches:
@@ -285,7 +285,7 @@ gameover_me: !ruby/object:RPG::ME
   pitch: 100
   volume: 100
 game_title: NeesanQuest
-title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
+title_bgm: !ruby/object:RPG::BGM {name: 02 - Puwapuwao! (Off Vocal), volume: 100, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
   - MaxHP
@@ -368,18 +368,18 @@ armor_types:
 - Heavy Armour
 - Small Shield
 - Large Shield
-currency_unit: G
+currency_unit: ' nyen'
 window_tone: !ruby/object:Tone {r: -34.0, g: 0.0, b: 68.0, a: 0.0}
 japanese: false
-opt_draw_title: true
+opt_draw_title: false
 opt_use_midi: false
 opt_transparent: false
 opt_followers: true
 opt_slip_death: false
 opt_extra_exp: false
 opt_display_tp: true
-battleback1_name: Grassland
-battleback2_name: Grassland
-title1_name: Plain
-title2_name: Forest
+battleback1_name: Wood1
+battleback2_name: Room2
+title1_name: Untitled-4
+title2_name: ''
 opt_floor_death: false

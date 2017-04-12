@@ -2055,58 +2055,20 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Demon God
-  gold: 50000
+  name: Holly
+  gold: 250
   battler_hue: 0
-  exp: 25000
-  hit: 95
-  battler_name: Evilgod
+  exp: 10
+  battler_name: hollys
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 6
+    rating: 5
     skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 74
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 8
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 9
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 15
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 13
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 12
     condition_param2: 0
     condition_param1: 0
   note: ''
   id: 30
-  eva: 5
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
@@ -2119,36 +2081,68 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 31
     data_id: 1
-    value: 100
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 10
     value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 1
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 5
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 61
-    data_id: 0
-    value: 1.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 63
-    data_id: 1
-    value: 0.0
   params:
-  - 20000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  drop_items:
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 1
+    data_id: 16
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  - !ruby/object:RPG::Enemy::DropItem
+    denominator: 1
+    kind: 0
+    data_id: 1
+  icon_index: 0
+  description: ''
+- !ruby/object:RPG::Enemy
+  name: Lily
+  gold: 9999
+  battler_hue: 0
+  exp: 9999
+  battler_name: lilys
+  actions:
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 5
+    skill_id: 127
+    condition_param2: 0
+    condition_param1: 0
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  params:
+  - 8000
   - 9999
-  - 240
-  - 150
-  - 160
-  - 160
-  - 150
-  - 150
+  - 700
+  - 70
+  - 70
+  - 70
+  - 70
+  - 70
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -2162,3 +2156,5 @@
     denominator: 1
     kind: 0
     data_id: 1
+  icon_index: 0
+  description: ''
